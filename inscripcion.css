@@ -1,0 +1,252 @@
+
+
+        .inscripcion-page {
+            min-height: 100vh;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(49, 142, 180, 0.12),
+                    transparent 35%
+                ),
+                #f4f7fa;
+            padding: 50px 20px 70px;
+        }
+
+        .inscripcion-wrapper {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        .inscripcion-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .inscripcion-header h1 {
+            font-family: "Playfair Display", serif;
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            color: #17283d;
+            margin-bottom: 10px;
+        }
+
+        .inscripcion-header p {
+            max-width: 650px;
+            margin: 0 auto;
+            color: #64748b;
+            font-size: 1rem;
+        }
+
+        .formulario-card {
+            background: #ffffff;
+            border-radius: 22px;
+            padding: 40px;
+            box-shadow: 0 15px 45px rgba(23, 40, 61, 0.10);
+            border: 1px solid rgba(23, 40, 61, 0.07);
+        }
+
+        .form-section {
+            margin-bottom: 35px;
+        }
+
+        .form-section:last-of-type {
+            margin-bottom: 10px;
+        }
+
+        .form-section-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 22px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e5eaf0;
+        }
+
+        .form-section-number {
+            width: 34px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: #173b63;
+            color: white;
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .form-section-title h2 {
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.15rem;
+            color: #17283d;
+            font-weight: 700;
+        }
+
+        .form-label {
+            color: #26384d;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+
+        .form-control,
+        .form-select {
+            min-height: 48px;
+            border-radius: 10px;
+            border: 1px solid #d5dde6;
+            padding: 10px 14px;
+            color: #24364b;
+            transition: border-color 0.2s ease,
+                        box-shadow 0.2s ease;
+        }
+
+        .form-control:focus,
+        .form-select:focus {
+            border-color: #278bb2;
+            box-shadow: 0 0 0 3px rgba(39, 139, 178, 0.13);
+        }
+
+        textarea.form-control {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .campo-ayuda {
+            display: block;
+            margin-top: 5px;
+            font-size: 0.82rem;
+            color: #7a8796;
+        }
+
+        /* Especialidad */
+
+        #especialidadContainer {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 14px;
+            background: #f2f7fa;
+            border: 1px solid #dce8ee;
+        }
+
+        #especialidadContainer.visible {
+            display: block;
+        }
+
+        /* Aviso */
+
+        .aviso-inscripcion {
+            padding: 18px 20px;
+            border-radius: 12px;
+            background: #f7f4e9;
+            border: 1px solid #e8dfbd;
+            color: #5d5232;
+            margin-bottom: 30px;
+            font-size: 0.92rem;
+        }
+
+        /* Botones */
+
+        .form-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 1px solid #e5eaf0;
+        }
+
+        .btn-volver {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 10px 22px;
+            border-radius: 10px;
+            border: 1px solid #ccd5df;
+            background: white;
+            color: #34495e;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+
+        .btn-volver:hover {
+            background: #f3f6f8;
+            color: #17283d;
+        }
+
+        .btn-enviar {
+            min-height: 48px;
+            padding: 10px 28px;
+            border: none;
+            border-radius: 10px;
+            background: #218a62;
+            color: white;
+            font-weight: 700;
+            transition: 0.2s ease;
+        }
+
+        .btn-enviar:hover {
+            background: #176c4d;
+            transform: translateY(-1px);
+        }
+
+        /* Mensaje de éxito */
+
+        .mensaje-exito {
+            background: #e9f8f0;
+            border: 1px solid #b9e5cd;
+            color: #185c3e;
+            border-radius: 14px;
+            padding: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .mensaje-exito h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+
+        .mensaje-exito p {
+            margin-bottom: 0;
+        }
+
+        /* Responsive */
+
+        @media (max-width: 700px) {
+
+            .inscripcion-page {
+                padding: 30px 14px 50px;
+            }
+
+            .formulario-card {
+                padding: 25px 20px;
+                border-radius: 17px;
+            }
+
+            .form-buttons {
+                flex-direction: column-reverse;
+                align-items: stretch;
+            }
+
+            .btn-volver,
+            .btn-enviar {
+                width: 100%;
+            }
+
+        }
+
+
+
+
+        .char-counter {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    text-align: right;
+    color: #666;
+}   
