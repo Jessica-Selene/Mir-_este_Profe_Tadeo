@@ -131,22 +131,46 @@ $especialidades = [
 
         "materias" => [
             4 => [
-                "Programación",
+                "Geografía",
+                "Lengua y Literatura",
+                "Física",
+                "Dibujo técnico",
+                "Educación Física",
                 "Matemática",
-                "Sistemas Operativos",
-                "Algoritmos"
+                "TIC",
+                "Inglés",
+                "Historia",
+                "Formación Ética y Ciudadana",
+                "Química",
+                "Biología"
             ],
             5 => [
-                "Programación",
-                "Matemática",
-                "Desarrollo Web",
-                "Algoritmos"
+                "Formación Ética y Ciudadana",
+                "Organización de la empresa y Legislación del trabajo",
+                "Electricidad y Técnicas digitales",
+                "Ed. Física",
+                "Matemática 1",
+                "Contabilidad 1",
+                "Programación 1",
+                "Sist. de Procesamiento de datos",
+                "Lengua y Literatura",
+                "Geografía Regional Argentina",
+                "Lógica",
+                "Historia Económica y Social Universal",
+                "Inglés"
             ],
             6 => [
-                "Programación",
-                "Matemática",
-                "Desarrollo Web",
-                "Organización de Empresas y Legislación del Trabajo"
+                "Ed. Física",
+                "Inglés Técnico",
+                "Contabilidad 2",
+                "Psicología",
+                "Matemática 2",
+                "Sist. de Procesamiento de Datos 2",
+                "Programación 2",
+                "Sist. Administrativos",
+                "Técnicas Digitales",
+                "Geografía Económica General",
+                "Historia Económica y Social Argentina"
             ],
             7 => [
                 "Programación 3",
@@ -165,12 +189,12 @@ $especialidades = [
 
         "talleres" => [
             [
-                "nombre" => "Taller de Programación",
+                "nombre" => "Proyecto de Prácticas Profesionalizantes (PPP)",
                 "imagen" => "img/taller_programacion.png",
                 "descripcion" => "Desarrollo de soluciones mediante lenguajes de programación."
             ],
             [
-                "nombre" => "Taller de Redes",
+                "nombre" => "Laboratorio",
                 "imagen" => "img/taller_redes.png",
                 "descripcion" => "Introducción al funcionamiento y configuración de redes."
             ],
@@ -191,25 +215,55 @@ $especialidades = [
 
         "materias" => [
             4 => [
-                "Aerodinámica",
-                "Navegación Aérea",
-                "Meteorología",
-                "Mecánica Aeronáutica"
+                "Educación Física",
+                "Dibujo técnico",
+                "Matemática",
+                "Biología",
+                "Lengua y Literatura",
+                "Formación ética y Ciudadana",
+                "Inglés",
+                "Historia",
+                "Geografía",
+                "TIC",
+                "Química",
+                "Física"
             ],
             5 => [
-                "Aerodinámica",
-                "Navegación Aérea",
-                "Seguridad Operacional",
-                "Instrumentos de Vuelo"
+                "Mecánica técnica",
+                "Química",
+                "Formación Ética y ciudadana",
+                "Tecnología 1",
+                "Análisis matemático 1",
+                "Inglés",
+                "Dibujo técnico",
+                "Lengua y Literatura",
+                "Electrotecnia 1",
+                "Mecánica técnica",
+                "Higiene y seguridad"
             ],
             6 => [
-                "Navegación Aérea",
-                "Seguridad Operacional",
-                "Instrumentos de Vuelo"
+                "Análisis matemático 2",
+                "Inglés",
+                "Aerodinámica",
+                "Hidráulica y Termodinámica",
+                "Resistencia y ensayo de los materiales",
+                "Tecnología 2",
+                "Electrotecnia 2",
+                "Legislación del trabajo",
+                "Metalurgica",
+                "Ed. Física"
             ],
             7 => [
-                "Seguridad Operacional",
-                "Instrumentos de Vuelo"
+                "Organización industrial",
+                "Motores de aviación",
+                "Laboratorio de ensayos",
+                "Ed. Física",
+                "Reparación e Instr. de aviones",
+                "Electricidad e intrumental",
+                "Laboratorios de ensayos",
+                "Anteproyecto de aviones",
+                "Derecho Aeronáutico",
+                "Análisis del discurso"
             ]
         ],
 
@@ -220,7 +274,7 @@ $especialidades = [
                 "descripcion" => "Introducción práctica al funcionamiento y mantenimiento de aeronaves."
             ],
             [
-                "nombre" => "Taller de Navegación",
+                "nombre" => "Proyecto de Prácticas Profesionalizantes (PPP)",
                 "imagen" => "img/taller_navegacion.png",
                 "descripcion" => "Trabajo con conceptos y herramientas relacionadas con la navegación aérea."
             ],
@@ -241,21 +295,46 @@ $especialidades = [
 
         "materias" => [
             4 => [
-                "Fotogrametría",
-                "Topografía",
-                "Cartografía",
-                "Teledetección"
+                "Dibujo Técnico",
+                "Matemática",
+                "Geografía",
+                "Lengua y Literatura",
+                "Química",
+                "Inglés",
+                "Historia",
+                "Formación Ética y Ciudadana",
+                "Física",
+                "TIC",
+                "Biología 1",
             ],
             5 => [
-                "Fotogrametría",
-                "Topografía",
-                "Sistemas de Información Geográfica",
-                "Procesamiento de Imágenes"
+                "Lengua y Literatura",
+                "Análisis Matemático 1",
+                "Trigonometría",
+                "PPP",
+                "Dibujo Cartográfico",
+                "Inglés",
+                "Química Aplicada",
+                "Fotografía 1",
+                "Óptica Fotográfica",
+                "Ed. Física",
+                "Trigonometría",
+                "Formación Ética y Ciudadana",
+                "Fotogrametría 1"
             ],
             6 => [
-                "Sistemas de Información Geográfica",
-                "Procesamiento de Imágenes",
-                "Cartografía"
+                "Electrónica Aplicada",
+                "Fotogrametría 2",
+                "Fotografía 2",
+                "Materiales y Equipos",
+                "Análisis Matemático",
+                "Dibujo Cartográfico 2",
+                "PPP",
+                "Topografía",
+                "Fotografía Aérea 2",
+                "Ed. Física",
+                "Legislación de Trabajo",
+                "Introducción a la computación"
             ],
             7 => [
                 "Análisis del discurso",
@@ -288,6 +367,11 @@ $especialidades = [
             ],
             [
                 "nombre" => "Geodesia",
+                "imagen" => "img/taller_cartografia.png",
+                "descripcion" => "Elaboración e interpretación de representaciones cartográficas."
+            ],
+            [
+                "nombre" => "PPP",
                 "imagen" => "img/taller_cartografia.png",
                 "descripcion" => "Elaboración e interpretación de representaciones cartográficas."
             ]
@@ -446,7 +530,7 @@ $especialidades = [
             align-items: center;
             gap: clamp(24px, 4vw, 56px);
             width: 100%;
-            padding-block: clamp(32px, 5vw, 64px);
+            
         }
 
         #pantallaInicio .intro-content { width: 100%; max-width: none; min-width: 0; margin: 0; }
@@ -581,6 +665,8 @@ $especialidades = [
             .footer-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
             .footer-link { padding: 10px 8px; border-radius: 12px; font-size: .82rem; }
         }
+
+        
     </style>
 
 </head>
@@ -799,51 +885,122 @@ $especialidades = [
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 
-    <!-- Enlaces a materias de 1° año -->
-    <script>
-    (() => {
-        const carpetaMaterias = "materias/1ero/";
-        const normalizar = (texto) => (texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
-        const crearNombreArchivo = (nombre) => normalizar(nombre).replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+    <!-- Enlaces a materias de todos los años -->
+<script>
+(() => {
+    const carpetasMaterias = {
+        1: "materias/1ero/",
+        2: "materias/2do/",
+        3: "materias/3ero/",
+        4: "materias/4to/",
+        5: "materias/5to/",
+        6: "materias/6to/",
+        7: "materias/7mo/"
+    };
 
-        function enlazarMateriasDePrimerAnio() {
-            const grilla = document.getElementById("materiasGrid");
-            const etiqueta = document.getElementById("etiquetaCurso");
-            if (!grilla || !etiqueta) return;
-            const anioSeleccionado = normalizar(etiqueta.textContent);
-            if (!anioSeleccionado.includes("1") || !anioSeleccionado.includes("ano")) return;
+    const especialidadesValidas = ["informatica", "aerofotogrametria", "aviacion"];
 
-            Array.from(grilla.children).forEach((columna) => {
-                if (columna.querySelector("a[data-enlace-materia]") || columna.querySelector("a[href]")) return;
-                const titulo = columna.querySelector(".card-title, h2, h3, h4, h5, h6");
-                if (!titulo) return;
-                const nombreMateria = titulo.textContent.trim();
-                if (!nombreMateria) return;
-                const archivo = crearNombreArchivo(nombreMateria) + ".php";
-                const enlace = document.createElement("a");
-                enlace.href = carpetaMaterias + archivo;
-                enlace.target = "_blank";
-                enlace.rel = "noopener noreferrer";
-                enlace.dataset.enlaceMateria = "true";
-                enlace.setAttribute("aria-label", "Abrir el material de " + nombreMateria + " de 1° año");
-                enlace.style.display = "block";
-                enlace.style.height = "100%";
-                enlace.style.color = "inherit";
-                enlace.style.textDecoration = "none";
-                while (columna.firstChild) enlace.appendChild(columna.firstChild);
-                columna.appendChild(enlace);
-            });
+    const normalizar = (texto) =>
+        (texto || "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .trim();
+
+    const crearNombreArchivo = (nombre) =>
+        normalizar(nombre)
+            .replace(/[^a-z0-9]+/g, "_")
+            .replace(/^_+|_+$/g, "");
+
+    function obtenerAnioSeleccionado() {
+        const etiqueta = document.getElementById("etiquetaCurso");
+        if (!etiqueta) return null;
+        const match = normalizar(etiqueta.textContent).match(/(\d)/);
+        return match ? parseInt(match[1], 10) : null;
+    }
+
+    function obtenerEspecialidadActual() {
+        const esp = (document.body.dataset.especialidadActual || "").toLowerCase().trim();
+        if (especialidadesValidas.includes(esp)) return esp;
+
+        const etiqueta = document.getElementById("etiquetaCurso");
+        if (etiqueta) {
+            const texto = normalizar(etiqueta.textContent);
+            const encontrada = especialidadesValidas.find((item) => texto.includes(item));
+            if (encontrada) return encontrada;
+        }
+        return "";
+    }
+
+    function construirRuta(anio, nombreMateria) {
+        const carpetaBase = carpetasMaterias[anio];
+        const archivo = crearNombreArchivo(nombreMateria) + ".php";
+
+        if (anio >= 4) {
+            const especialidad = obtenerEspecialidadActual();
+            if (especialidad) {
+                return `${carpetaBase}${especialidad}/${archivo}`;
+            }
         }
 
+        return `${carpetaBase}${archivo}`;
+    }
+
+    function enlazarMaterias() {
         const grilla = document.getElementById("materiasGrid");
-        if (grilla) {
-            const observador = new MutationObserver(enlazarMateriasDePrimerAnio);
-            observador.observe(grilla, { childList: true, subtree: true });
-            enlazarMateriasDePrimerAnio();
-        }
-        document.addEventListener("click", () => setTimeout(enlazarMateriasDePrimerAnio, 150));
-    })();
-    </script>
+        if (!grilla) return;
+
+        const anio = obtenerAnioSeleccionado();
+        if (!anio || !carpetasMaterias[anio]) return;
+
+        Array.from(grilla.children).forEach((columna) => {
+            const titulo = columna.querySelector(".card-title, h2, h3, h4, h5, h6");
+            if (!titulo) return;
+
+            const nombreMateria = titulo.textContent.trim();
+            if (!nombreMateria) return;
+
+            const url = construirRuta(anio, nombreMateria);
+            let enlace = columna.querySelector("a[data-enlace-materia]");
+
+            if (enlace) {
+                enlace.href = url;
+                enlace.setAttribute("aria-label", `Abrir el material de ${nombreMateria} de ${anio}° año`);
+                return;
+            }
+
+            enlace = document.createElement("a");
+            enlace.href = url;
+            enlace.target = "_blank";
+            enlace.rel = "noopener noreferrer";
+            enlace.dataset.enlaceMateria = "true";
+            enlace.setAttribute("aria-label", `Abrir el material de ${nombreMateria} de ${anio}° año`);
+            enlace.style.display = "block";
+            enlace.style.height = "100%";
+            enlace.style.color = "inherit";
+            enlace.style.textDecoration = "none";
+
+            while (columna.firstChild) {
+                enlace.appendChild(columna.firstChild);
+            }
+            columna.appendChild(enlace);
+        });
+    }
+
+    const grilla = document.getElementById("materiasGrid");
+    if (grilla) {
+        const observador = new MutationObserver(() => {
+            requestAnimationFrame(enlazarMaterias);
+        });
+        observador.observe(grilla, { childList: true, subtree: true });
+        enlazarMaterias();
+    }
+
+    document.addEventListener("click", () => {
+        requestAnimationFrame(() => setTimeout(enlazarMaterias, 50));
+    });
+})();
+</script>
 
 </body>
 </html>   
