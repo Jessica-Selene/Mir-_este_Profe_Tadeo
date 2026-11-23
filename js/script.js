@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let cursoActual = null;
     let especialidadActual = null;
+    let especialidadActualId = null;
 
 
     /* =====================================================
@@ -176,6 +177,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             cursoActual = cursos[numeroCurso];
             especialidadActual = null;
+            especialidadActualId = null;
+            document.body.dataset.especialidadActual = "";
 
             limpiarTemas();
             mostrarContenido();
@@ -203,6 +206,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             especialidadActual = especialidades[idEspecialidad];
             cursoActual = { nombre: `${numeroCurso}° año`, numero: parseInt(numeroCurso) };
+            especialidadActualId = idEspecialidad;
+            document.body.dataset.especialidadActual = idEspecialidad;
 
             limpiarTemas();
             body.classList.add(especialidadActual.clase);
@@ -228,6 +233,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         etiquetaCurso.textContent =
             cursoActual.nombre.toUpperCase() + " · " + especialidadActual.nombre.toUpperCase();
+
+        document.body.dataset.especialidadActual = especialidadActualId;
 
         volverEspecialidad.classList.remove("d-none");
 
@@ -274,6 +281,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         cursoActual = null;
         especialidadActual = null;
+        especialidadActualId = null;
+        document.body.dataset.especialidadActual = "";
 
         contenido.classList.add("d-none");
         especialidadPanel.classList.add("d-none");
